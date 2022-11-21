@@ -86,55 +86,6 @@
 body{
     overflow: hidden;
 }
-nav {
-    font-size: 15px;
-    font-weight: 1000;
-    position: fixed;
-    display: grid;
-    font-family: "Montserrat";
-    font: bold;
-    z-index: 1;
-    height: 8vh;
-    width: 100vw;
-    place-content: center;
-    box-shadow: 10px 0px 20px;
-   background-color: white;
-   
-}
-
-.logo {
-    position: absolute;
-    top: 20%;
-    left: 2%;
-    width: 12vw;
-    height: 6vh;
-    background-image: url(../allImages/fashion\ title.png);
-    background-size: cover;
-}
-
-.navbarposition {
-    
-    display: flex;
-    width: 70vw;
-    height: 5vh;
-
-}
-
-.navbarposition ul li {
-    float: left;
-    padding: 10px 20px;
-    list-style: none;
-}
-.navbarposition ul li a:hover {
-    border-bottom: 2px solid orangered;
-}
-
-.navbarposition ul li a {
-  
-    text-decoration: none;
-    color: black;
-}
-
 .signin {
     position: absolute;
     width: 7vw;
