@@ -25,6 +25,25 @@ nav {
     background-size: cover;
 }
 
+.signin {
+    width: 7vw;
+    height: 4vh;
+    display: grid;
+    place-content: center;
+
+}
+
+.signin a {
+    
+    font-family: "Montserrat";font-size: .8rem;
+    text-decoration: none;
+    color: black;
+}
+
+.signin a:hover {
+    color: green;
+}
+
 .navbarposition {
     
     display: flex;

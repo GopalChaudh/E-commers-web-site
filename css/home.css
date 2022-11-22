@@ -86,28 +86,6 @@
 body{
     overflow: hidden;
 }
-.signin {
-    position: absolute;
-    width: 7vw;
-    height: 4vh;
-    left: 76%;
-    top: 35%;
-    display: grid;
-    place-content: center;
-
-}
-
-.signin a {
-    
-    font-family: "Montserrat";font-size: .8rem;
-    text-decoration: none;
-    color: black;
-}
-
-.signin a:hover {
-    color: green;
-}
-
 .other {
     position: absolute;
     width: 15vw;
@@ -179,7 +157,6 @@ body{
 
 }
 .mainbanner img:hover{
-
     margin-right: 0rem;
 }
 .textcontant{
