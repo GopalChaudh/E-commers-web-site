@@ -1,4 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
 nav {
     font-size: 15px;
     font-weight: 1000;
@@ -7,11 +12,12 @@ nav {
     font-family: "Montserrat";
     font: bold;
     z-index: 1;
-    height: 8vh;
+    height: 4rem;
     width: 100vw;
     place-content: center;
     box-shadow: 10px 0px 20px;
    background-color: white;
+   z-index: 2;
    
 }
 
@@ -21,7 +27,6 @@ nav {
     left: 2%;
     width: 12vw;
     height: 6vh;
-    background-image: url(../allImages/fashion\ title.png);
     background-size: cover;
 }
 
@@ -43,6 +48,21 @@ nav {
 .signin a:hover {
     color: green;
 }
+.other {
+    position: absolute;
+    width: 15vw;
+    height: 6vh;
+    left: 83%;
+}
+
+.other span {
+    margin-left: 15%;
+    margin-top: 3%;
+    cursor: pointer;
+
+
+}
+
 
 .navbarposition {
     
@@ -65,4 +85,21 @@ nav {
   
     text-decoration: none;
     color: black;
+}
+
+#search:hover {
+    color: rgb(80, 80, 255);
+}
+
+#heart:hover {
+    color: red;
+}
+
+#bag:hover {
+    color:brown;
+}
+
+
+.activated{
+    border-bottom: 2px solid red;
 }

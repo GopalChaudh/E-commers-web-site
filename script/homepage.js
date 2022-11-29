@@ -1,5 +1,4 @@
 let topnav = Array.from(document.querySelectorAll('.active_tnav'))
-let login_page = document.querySelector('.loginpage')
 
 
 

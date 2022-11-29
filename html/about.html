@@ -4,29 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/productNav.css">
     <link rel="stylesheet" href="../css/loginpage.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
-        type="text/css">
-    <link rel="stylesheet" href="../css/responsivnes.css">
     <link rel="stylesheet" href="../css/Navbar.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/responsivnes.css">
 
     <title>about us</title>
 </head>
 <body>
+
     <nav>
-     <div class="logo"></div>
+        <img src="../allImages/fashion title.png" class="logo">
 
         <div class="navbarposition">
             <ul>
-                <li><a href="./home.html" class="active_tnav activated">HOME</a></li>
+                <li><a href="./home.html" class="active_tnav ">HOME</a></li>
                 <li><a href="#" class="active_tnav">WOMEN'S</a></li>
                 <li><a href="#" class="active_tnav">MEN'S</a></li>
                 <li><a href="#" class="active_tnav">SHOP</a></li>
                 <li><a href="#" class="active_tnav">PAGES</a></li>
                 <li><a href="#" class="active_tnav">MY Team</a></li>
-                <li><a href="./about.html" class="active_tnav">ABOUT</a></li>
+                <li><a href="./about.html" class="active_tnav activated">ABOUT</a></li>
                 <li><a href="#" class="active_tnav">CONTACT</a></li>
             </ul>
             <div class="signin">
@@ -47,6 +45,7 @@
         </div>
     </nav>
 
+    
     <div class="section">
         <div class="container">
             <div class="content-section">
@@ -70,6 +69,41 @@
             </div>
         </div>
     </div>
+</div>
+<div class="loginpage">
+
+    <div class="inputlayout">
+        <div id="login">
+            <h1><strong>Welcome.</strong> Please login.</h1>
+            <form action="javascript:void(0);" method="get">
+                <fieldset>
+                    <p><input type="text" required value="Username" onBlur="if(this.value=='')this.value='Username'"
+                            onFocus="if(this.value=='Username')this.value='' "></p>
+                    <p><input type="password" required value="Password"
+                            onBlur="if(this.value=='')this.value='Password'"
+                            onFocus="if(this.value=='Password')this.value='' "></p>
+                    <p><a href="#">Forgot Password?</a></p>
+                    <p><input type="submit" value="Login"></p>
+                </fieldset>
+            </form>
+            <p><span class="btn-round">or</span></p>
+            <p>
+                <a class="facebook-before">
+                    <i class="fa-brands fa-square-facebook" style="font-size:50px;"></i>
+                </a>
+                <button class="facebook">Login Using Facbook</button>
+            </p>
+            <p>
+                <a class="twitter-before">
+                    <i class="fa-brands fa-twitter" style="font-size:50px;"></i>
+
+                </a>
+                <button class="twitter">Login Using Twitter</button>
+            </p>
+        </div>
+    </div>
+</div>
     <script src="../script/login pop.js"></script>
+    <script src="https://kit.fontawesome.com/ec6a990afe.js" crossorigin="anonymous"></script>
 </body>
 </html>

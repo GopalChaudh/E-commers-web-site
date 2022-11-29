@@ -1,0 +1,48 @@
+
+.contants_men{
+   
+    width: 100vw;
+    height: 100vh;
+}
+.banner{
+    margin-left: 10%;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    overflow: hidden;
+    border: 1px solid;
+    overflow-x: scroll;
+}
+.banner-same{
+    margin-top: 1rem;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.common_banner{
+    height: 100%;
+    width: fit-content;
+}
+.banner2{
+    margin-left: 5%;
+    width: 90%;
+}
+.discount_banners{
+    background-color: rgb(248, 244, 244);
+    width: 90vw;
+    height: 30vw;
+    margin-left: 5vw;
+    display:flex ; 
+    justify-content:  space-evenly;
+    overflow: hidden;
+}
+.discount_banners a img{
+    height: 100%;
+    transition: .3s;
+    
+}
+.discount_banners a img:hover{
+    height: 120%;
+    
+}

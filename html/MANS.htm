@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOPAL SIGHT</title>
+    <link rel="stylesheet" href="../css/loginpage.css">
+    <link rel="stylesheet" href="../css/responsivnes.css">
+    <link rel="stylesheet" href="../css/Navbar.css">
+    <link rel="stylesheet" href="../css/Mens.css">
+</head>
+
+<body>
+   
+    <nav>
+       <img src="../allImages/fashion title.png" class="logo">
+
+        <div class="navbarposition">
+            <ul>
+                <li><a href="./home.html" class="active_tnav">HOME</a></li>
+                <li><a href="" class="active_tnav">WOMEN'S</a></li>
+                <li><a href="./MANS.htm" class="active_tnav activated">MEN'S</a></li>
+                <li><a href="#" class="active_tnav">SHOP</a></li>
+                <li><a href="#" class="active_tnav">PAGES</a></li>
+                <li><a href="#" class="active_tnav">MY Team</a></li>
+                <li><a href="./about.html" class="active_tnav">ABOUT</a></li>
+                <li><a href="#" class="active_tnav">CONTACT</a></li>
+            </ul>
+            <div class="signin">
+                <a href="#" onclick="login_click()">Login/Resister</a>
+            </div>
+            <div class="other">
+                <span class="material-symbols-outlined" id="search" onclick="inputpopup()">
+                    search
+                </span>
+                <span class="material-symbols-outlined" id="heart">
+                    favorite
+                </span>
+                <span class="material-symbols-outlined" id="bag">
+                    shopping_bag
+                </span>
+            </div>
+
+        </div>
+    </nav>
+    <div class="loginpage">
+
+        <div class="inputlayout">
+            <div id="login">
+                <h1><strong>Welcome.</strong> Please login.</h1>
+                <form action="javascript:void(0);" method="get">
+                    <fieldset>
+                        <p><input type="text" required value="Username" onBlur="if(this.value=='')this.value='Username'"
+                                onFocus="if(this.value=='Username')this.value='' "></p>
+                        <p><input type="password" required value="Password"
+                                onBlur="if(this.value=='')this.value='Password'"
+                                onFocus="if(this.value=='Password')this.value='' "></p>
+                        <p><a href="#">Forgot Password?</a></p>
+                        <p><input type="submit" value="Login"></p>
+                    </fieldset>
+                </form>
+                <p><span class="btn-round">or</span></p>
+                <p>
+                    <a class="facebook-before">
+                        <i class="fa-brands fa-square-facebook" style="font-size:50px;"></i>
+                    </a>
+                    <button class="facebook">Login Using Facbook</button>
+                </p>
+                <p>
+                    <a class="twitter-before">
+                        <i class="fa-brands fa-twitter" style="font-size:50px;"></i>
+
+                    </a>
+                    <button class="twitter">Login Using Twitter</button>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="contants_men">
+
+<section class="banner">
+<div class="banner-same">
+
+    <a href="#">
+        <img class="common_banner" src=".../allImages/mens images/banner1.webp" >
+        
+    </a>
+</div>
+<div class="banner-same">
+
+    <a href="#">
+        <img class="common_banner" src="../allImages/mens images/banner1.webp" >
+        
+    </a>
+</div>
+   
+<div class="banner-same">
+
+    <a href="#">
+        <img class="common_banner" src="../allImages/mens images/banner7.webp" >
+        
+    </a>
+</div>
+   
+</section>
+<section>
+    <a href="#">
+    <img src="../allImages/mens images/banner2.webp" class="banner2" >
+</a>
+</section>
+<section class="discount_banners">
+    <a href="#">
+        <img src="../allImages/mens images/banner3.webp" alt="">
+    </a>
+    <a href="#">
+        <img src="../allImages/mens images/banner4.webp" alt="">
+    </a>
+    <a href="#">
+        <img src="../allImages/mens images/banner5.webp" alt="">
+    </a>
+</section>
+</div>
+
+
+
+
+
+
+<script src="../script/Mens.js"></script>
+<script src="../script/login pop.js"></script>
+
+</body>
+</html>

@@ -86,33 +86,6 @@
 body{
     overflow: hidden;
 }
-.other {
-    position: absolute;
-    width: 15vw;
-    height: 6vh;
-    left: 83%;
-}
-
-.other span {
-    margin-left: 15%;
-    margin-top: 3%;
-    cursor: pointer;
-
-
-}
-
-#search:hover {
-    color: rgb(80, 80, 255);
-}
-
-#heart:hover {
-    color: red;
-}
-
-#bag:hover {
-    color:brown;
-}
-
 
 .allcontant{
     width: 100vw;
@@ -384,9 +357,7 @@ font-size: .8rem;
     border-bottom: 3px solid rgb(255, 60, 0);
     cursor: pointer;
 }
-.activated{
-    border-bottom: 2px solid red;
-}
+
 .inputpop{
     position: fixed;
    z-index: 0;
