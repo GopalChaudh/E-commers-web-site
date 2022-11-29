@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .body_about{
+
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -11,7 +12,8 @@
 .section{
     width: 100%;
     min-height: 100vh;
-    background-color: #ddd;
+    background-image: url(../allImages/img/hero4.png);
+    background-size: cover;
 }
 .container{
     width: 80%;

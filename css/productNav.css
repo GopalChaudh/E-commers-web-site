@@ -1,3 +1,4 @@
+@import url('../css/colors.css');
 
 
 .section2 {
@@ -72,7 +73,7 @@
     margin-top: -15%;
     overflow-y: scroll;
     /* border: 1px solid; */
-    background-color: rgb(255, 253, 253);
+    background-color:var(--skin-color-light);
     scroll-behavior: smooth;
 
 }
