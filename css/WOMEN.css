@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 .banner{
     margin-left: 10%;
     width: 80vw;
